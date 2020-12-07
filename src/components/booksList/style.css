@@ -1,0 +1,13 @@
+.render_list{
+    display: flex;
+    flex-flow: wrap;
+}
+
+
+
+@media (min-width: 1200px){
+    .books_list{
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+}

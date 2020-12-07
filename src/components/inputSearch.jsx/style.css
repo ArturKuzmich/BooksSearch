@@ -1,0 +1,13 @@
+.search_input{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0 0 0;
+    padding: 0 17%;
+}
+
+@media (min-width: 768px){
+    .search_input {
+        padding: 0 10%;
+    }
+}
