@@ -1,15 +1,4 @@
-// import {SET_BOOKS} from "../actions/actions";
-//
-// const initialState = []
-//
-// export default (state = initialState, action) => {
-//     switch (action.type) {
-//         case  SET_BOOKS:
-//             return action.books;
-//         default:
-//             return  state
-//     }
-// }
+
 
 import {REQUEST_BOOKS, RECEIVE_BOOKS} from "./actionType";
 
@@ -37,21 +26,3 @@ export const books = (state = initialState, action) => {
             return state;
     }
 }
-// export default (state = initialState, action) => {
-//     switch (action.type){
-//         case REQUEST_BOOKS:
-//             return {
-//                 ...state,
-//                 isFetch: true,
-//                 error: null
-//             }
-//         case RECEIVE_BOOKS:
-//             return {
-//                 ...state,
-//                 isFetch: false,
-//                 data: action.books
-//             }
-//         default:
-//             return state
-//     }
-// }

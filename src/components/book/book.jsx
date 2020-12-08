@@ -4,7 +4,6 @@ import Card from 'react-bootstrap/Card'
 import './style.css'
 import {Link} from "react-router-dom";
 const Book = ({book}) => {
-    console.log(book.volumeInfo)
     let {
         title,
         imageLinks,

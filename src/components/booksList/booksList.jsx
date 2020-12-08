@@ -4,7 +4,6 @@ import Book from "../book/book";
 import isEmpty from 'lodash.isempty'
 import './style.css'
 import {Spinner} from "react-bootstrap";
-import {Link} from "react-router-dom";
 
 const renderBooks = (data) => {
     if (isEmpty(data)) {
@@ -15,7 +14,7 @@ const renderBooks = (data) => {
     return (
         <div className='render_list'>
             {books.map(book => (
-                <Book book={book} />
+                <Book book={book} key={book.id} />
             ))}
         </div>
     )
